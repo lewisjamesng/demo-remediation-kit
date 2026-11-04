@@ -9,7 +9,7 @@
 #   ./verify.sh --ref fix/           # per repo, test the newest branch whose name starts
 #                                    # with this prefix (e.g. agent PR branches fix/DEMO-...)
 #
-# Needs: gh (authenticated), git, jq, node/npm, Java 17 + mvn, Go, python3.11 (or $PYTHON),
+# Needs: git, jq, node/npm, Java 17 + mvn, Go, python3.11 (or $PYTHON),
 #        osv-scanner, pip-audit, govulncheck, bandit.
 set -uo pipefail
 
@@ -53,7 +53,7 @@ for entry in "${REPOS[@]}"; do
   if [ -n "$LOCAL" ]; then
     cp -r "$LOCAL/$repo" "$dir" 2>/dev/null || { row "$repo" "$lang" "$pkg" "-" "clone failed" "-" "?"; continue; }
     rm -rf "$dir/node_modules" "$dir/target"
-  elif ! gh repo clone "$OWNER/$repo" "$dir" -- -q >"$LOG/$repo.clone" 2>&1; then
+  elif ! git clone -q "https://github.com/$OWNER/$repo.git" "$dir" >"$LOG/$repo.clone" 2>&1; then
     row "$repo" "$lang" "$pkg" "-" "clone failed" "-" "?"; continue
   fi
   if [ -n "$REF" ]; then
