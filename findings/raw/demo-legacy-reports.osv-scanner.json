@@ -2,7 +2,7 @@
   "results": [
     {
       "source": {
-        "path": "/home/lewis/Desktop/devin-demo/demo-legacy-reports/requirements.txt",
+        "path": "demo-legacy-reports/requirements.txt",
         "type": "lockfile"
       },
       "packages": [
@@ -257,7 +257,7 @@
     },
     {
       "source": {
-        "path": "/home/lewis/Desktop/devin-demo/demo-legacy-reports/requirements.txt",
+        "path": "demo-legacy-reports/requirements.txt",
         "type": "unknown"
       },
       "packages": [

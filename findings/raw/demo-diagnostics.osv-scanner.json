@@ -2,7 +2,7 @@
   "results": [
     {
       "source": {
-        "path": "/home/lewis/Desktop/devin-demo/demo-diagnostics/requirements.txt",
+        "path": "demo-diagnostics/requirements.txt",
         "type": "lockfile"
       },
       "packages": [
@@ -257,7 +257,7 @@
     },
     {
       "source": {
-        "path": "/home/lewis/Desktop/devin-demo/demo-diagnostics/requirements.txt",
+        "path": "demo-diagnostics/requirements.txt",
         "type": "unknown"
       },
       "packages": [

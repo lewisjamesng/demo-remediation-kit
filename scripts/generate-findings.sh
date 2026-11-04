@@ -27,5 +27,8 @@ for r in "${REPOS[@]}"; do
       bandit -q -r src -f sarif -o "$OUT/sarif/$r.bandit.sarif" >/dev/null 2>&1 || true
     fi )
 done
+# Strip local absolute paths so published reports contain only repo-relative paths.
+SRC_ABS="$(cd "$SRC" && pwd)"
+find "$OUT/sarif" "$OUT/raw" -type f -exec sed -i -e "s#file://$SRC_ABS/##g" -e "s#$SRC_ABS/##g" {} +
 python3 "$KIT/scripts/findings_to_csv.py" "$SRC" "$OUT/raw" > "$OUT/jira-findings.csv"
 echo "wrote $OUT/jira-findings.csv ($(($(wc -l < "$OUT/jira-findings.csv") - 1)) tickets)" >&2

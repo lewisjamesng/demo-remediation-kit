@@ -2,7 +2,7 @@
   "results": [
     {
       "source": {
-        "path": "/home/lewis/Desktop/devin-demo/demo-service-portal/pom.xml",
+        "path": "demo-service-portal/pom.xml",
         "type": "lockfile"
       },
       "packages": [
@@ -3768,7 +3768,7 @@
     },
     {
       "source": {
-        "path": "/home/lewis/Desktop/devin-demo/demo-service-portal/pom.xml",
+        "path": "demo-service-portal/pom.xml",
         "type": "unknown"
       },
       "packages": [

@@ -2,7 +2,7 @@
   "results": [
     {
       "source": {
-        "path": "/home/lewis/Desktop/devin-demo/demo-session-router/go.mod",
+        "path": "demo-session-router/go.mod",
         "type": "lockfile"
       },
       "packages": [

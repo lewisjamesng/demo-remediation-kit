@@ -2,7 +2,7 @@
   "results": [
     {
       "source": {
-        "path": "/home/lewis/Desktop/devin-demo/demo-ota-status/package-lock.json",
+        "path": "demo-ota-status/package-lock.json",
         "type": "lockfile"
       },
       "packages": [
