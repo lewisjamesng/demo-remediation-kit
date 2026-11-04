@@ -40,7 +40,7 @@ Supporting material for a demo of an AI software engineer remediating security f
 ./verify.sh --local ..      # use local checkouts instead of cloning
 ```
 
-Needs `gh` (logged in), git, jq, Node 20+, Java 17 + Maven, Go, Python 3.11, osv-scanner, pip-audit, govulncheck and bandit.
+Needs git, jq, Node 20+, Java 17 + Maven, Go, Python 3.11, osv-scanner, pip-audit, govulncheck and bandit.
 
 ## Licence
 
