@@ -1,0 +1,20 @@
+diff --git a/requirements.txt b/requirements.txt
+index 7a997b5..bee6c14 100644
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -1 +1 @@
+-PyYAML==5.3.1
++PyYAML==6.0
+diff --git a/src/diagnostics/parser.py b/src/diagnostics/parser.py
+index ed8ed8f..fc5be35 100644
+--- a/src/diagnostics/parser.py
++++ b/src/diagnostics/parser.py
+@@ -24,7 +24,7 @@ class DiagnosticCode:
+ def load_rules(path: str | Path = DEFAULT_RULES) -> dict:
+     """Load the rules file."""
+     with open(path, "r", encoding="utf-8") as fh:
+-        rules = yaml.load(fh)
++        rules = yaml.safe_load(fh)
+     if not isinstance(rules, dict) or "rules" not in rules:
+         raise ValueError(f"invalid rules file: {path}")
+     return rules

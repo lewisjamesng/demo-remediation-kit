@@ -1,0 +1,39 @@
+diff --git a/package-lock.json b/package-lock.json
+index cabaaec..e8b7344 100644
+--- a/package-lock.json
++++ b/package-lock.json
+@@ -9,7 +9,7 @@
+       "version": "1.0.0",
+       "license": "MIT",
+       "dependencies": {
+-        "lodash": "4.17.20"
++        "lodash": "^4.18.1"
+       },
+       "devDependencies": {
+         "@types/jest": "^30.0.0",
+@@ -3558,9 +3558,9 @@
+       }
+     },
+     "node_modules/lodash": {
+-      "version": "4.17.20",
+-      "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.20.tgz",
+-      "integrity": "sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==",
++      "version": "4.18.1",
++      "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.18.1.tgz",
++      "integrity": "sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==",
+       "license": "MIT"
+     },
+     "node_modules/lodash.memoize": {
+diff --git a/package.json b/package.json
+index 7d4314a..6a52237 100644
+--- a/package.json
++++ b/package.json
+@@ -11,7 +11,7 @@
+     "test": "jest"
+   },
+   "dependencies": {
+-    "lodash": "4.17.20"
++    "lodash": "^4.18.1"
+   },
+   "devDependencies": {
+     "@types/jest": "^30.0.0",

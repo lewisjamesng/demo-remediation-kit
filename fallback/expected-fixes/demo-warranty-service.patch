@@ -1,0 +1,13 @@
+diff --git a/pom.xml b/pom.xml
+index 63036a4..e1517cb 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -20,7 +20,7 @@
+   <properties>
+     <maven.compiler.release>17</maven.compiler.release>
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+-    <jackson.version>2.9.10.8</jackson.version>
++    <jackson.version>2.18.11</jackson.version>
+     <junit.version>5.14.4</junit.version>
+   </properties>
+ 

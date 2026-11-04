@@ -1,0 +1,35 @@
+diff --git a/pom.xml b/pom.xml
+index e04eb38..2878ae5 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -20,7 +20,7 @@
+   <properties>
+     <maven.compiler.release>17</maven.compiler.release>
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+-    <jackson.version>2.9.10.8</jackson.version>
++    <jackson.version>2.18.11</jackson.version>
+     <junit.version>5.14.4</junit.version>
+   </properties>
+ 
+diff --git a/src/main/java/com/example/demo/portal/JsonSupport.java b/src/main/java/com/example/demo/portal/JsonSupport.java
+index 34deaf8..09c4865 100644
+--- a/src/main/java/com/example/demo/portal/JsonSupport.java
++++ b/src/main/java/com/example/demo/portal/JsonSupport.java
+@@ -2,7 +2,7 @@ package com.example.demo.portal;
+ 
+ import com.fasterxml.jackson.databind.DeserializationFeature;
+ import com.fasterxml.jackson.databind.ObjectMapper;
+-import com.fasterxml.jackson.databind.PropertyNamingStrategy;
++import com.fasterxml.jackson.databind.PropertyNamingStrategies;
+ 
+ /** Shared Jackson configuration: the public API uses snake_case field names. */
+ public final class JsonSupport {
+@@ -11,7 +11,7 @@ public final class JsonSupport {
+ 
+     public static ObjectMapper mapper() {
+         ObjectMapper mapper = new ObjectMapper();
+-        mapper.setPropertyNamingStrategy(PropertyNamingStrategy.CAMEL_CASE_TO_LOWER_CASE_WITH_UNDERSCORES);
++        mapper.setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE);
+         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+         return mapper;
+     }

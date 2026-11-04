@@ -1,0 +1,28 @@
+diff --git a/go.mod b/go.mod
+index 4acfdb4..021fe22 100644
+--- a/go.mod
++++ b/go.mod
+@@ -1,7 +1,7 @@
+ module example.com/demo/session-router
+ 
+-go 1.22
++go 1.26.0
+ 
+-require golang.org/x/net v0.17.0
++require golang.org/x/net v0.60.0
+ 
+-require golang.org/x/text v0.13.0 // indirect
++require golang.org/x/text v0.42.0 // indirect
+diff --git a/go.sum b/go.sum
+index 66be8d9..1ed037a 100644
+--- a/go.sum
++++ b/go.sum
+@@ -1,4 +1,4 @@
+-golang.org/x/net v0.17.0 h1:pVaXccu2ozPjCXewfr1S7xza/zcXTity9cCdXQYSjIM=
+-golang.org/x/net v0.17.0/go.mod h1:NxSsAGuq816PNPmqtQdLE42eU2Fs7NoRIZrHJAlaCOE=
+-golang.org/x/text v0.13.0 h1:ablQoSUd0tRdKxZewP80B+BaqeKJuVhuRxj/dkrun3k=
+-golang.org/x/text v0.13.0/go.mod h1:TvPlkZtksWOMsz7fbANvkp4WM8x/WCo/om8BMLbz+aE=
++golang.org/x/net v0.60.0 h1:79p50tfZlm0J9YfoDsSi639qSXNGVwEzOPLCxM2FsYU=
++golang.org/x/net v0.60.0/go.mod h1:2DA/G1UfVbCpQPeWTmMPGY7Cs2PkBkwu743bVX5PIVg=
++golang.org/x/text v0.42.0 h1:JbOZXgfeCPU9gacVtYliJqOhD+zhrEqK4LfdpmlUZqI=
++golang.org/x/text v0.42.0/go.mod h1:ojzP1Z+2QtioaF8DTtO8K5q7JWVVYwZKenzujK0Zd0E=

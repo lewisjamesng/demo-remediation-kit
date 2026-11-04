@@ -1,0 +1,1541 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/main/sarif-2.1/schema/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "addresses": [],
+      "artifacts": [
+        {
+          "length": -1,
+          "location": {
+            "index": -1,
+            "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+          },
+          "parentIndex": -1,
+          "roles": []
+        }
+      ],
+      "graphs": [],
+      "invocations": [],
+      "language": "en-US",
+      "logicalLocations": [],
+      "newlineSequences": [
+        "\r\n",
+        "\n"
+      ],
+      "policies": [],
+      "redactionTokens": [],
+      "results": [
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "a910c021dd5de107d5275c920d74591b7749047d6cea03eef7b3b120fb703f2a"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2023-45288' (also known as 'BIT-golang-2023-45288', 'GO-2024-2687', 'GHSA-4v7x-pqxf-cx7m')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2023-45288",
+          "ruleIndex": 0,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "cf7f34afdd468e057b5a4f3b9405197110c9d8857d2c4f7fe5125a1055353b61"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2026-25680' (also known as 'GO-2026-5028', 'GHSA-5cv4-jp36-h3mw')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-25680",
+          "ruleIndex": 1,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "6b19fd63c22efacfecd56e44af7eefe0bb67d1cadf0c66d45d91056aaf3db0dd"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2025-22870' (also known as 'GO-2025-3503', 'GHSA-qxp5-gwg8-xv66')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2025-22870",
+          "ruleIndex": 2,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "4d16ca16bb71c65aa0c06a3a250429be79fb383c16a2a78b3343c9467be2c442"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2025-22872' (also known as 'GO-2025-3595', 'GHSA-vvgc-356p-c3xw')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2025-22872",
+          "ruleIndex": 3,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "a910c021dd5de107d5275c920d74591b7749047d6cea03eef7b3b120fb703f2a"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2023-45288' (also known as 'BIT-golang-2023-45288', 'GO-2024-2687', 'GHSA-4v7x-pqxf-cx7m')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2023-45288",
+          "ruleIndex": 0,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "6f5cda985dc0fb5c1765f270ee83c4b495a3ab33676cb484086c886be70472a7"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2024-45338' (also known as 'GO-2024-3333', 'GHSA-w32m-9786-jp63')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2024-45338",
+          "ruleIndex": 4,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "6b19fd63c22efacfecd56e44af7eefe0bb67d1cadf0c66d45d91056aaf3db0dd"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2025-22870' (also known as 'GO-2025-3503', 'GHSA-qxp5-gwg8-xv66')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2025-22870",
+          "ruleIndex": 2,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "4d16ca16bb71c65aa0c06a3a250429be79fb383c16a2a78b3343c9467be2c442"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2025-22872' (also known as 'GO-2025-3595', 'GHSA-vvgc-356p-c3xw')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2025-22872",
+          "ruleIndex": 3,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "cf7de6493b5487d9a266b81403f6d6bba3f8f19fd8a66e023eb81778e1921061"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2025-47911' (also known as 'GO-2026-4440', 'GHSA-w4gw-w5jq-g9jh')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2025-47911",
+          "ruleIndex": 5,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "0c54f1ac084d73541a9c0499d722f529c5c314a63f055c6420a243fc34c00bae"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2025-58190' (also known as 'GO-2026-4441')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2025-58190",
+          "ruleIndex": 6,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "a033652b042ac05d1e7fbde886e1684b947f292e450b517d105f60d2ddde64fa"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2026-33814' (also known as 'BIT-golang-2026-33814', 'GO-2026-4918')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-33814",
+          "ruleIndex": 7,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "ca6eb271484099b30524b4c024c0a8f048fcbdd3d9307ea7954a633985f4f2ef"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2026-42506' (also known as 'GO-2026-5025')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-42506",
+          "ruleIndex": 8,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "ac5199d80bc92ba8c9a067c8240b836953f5e1c33a0dac38e99ea4294895015d"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2026-39821' (also known as 'GO-2026-5026')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-39821",
+          "ruleIndex": 9,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "2ec64afe91494c2b975be6330f2d0d7384028f78f428c0ab477b7b016b92ebe4"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2026-42502' (also known as 'GO-2026-5027')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-42502",
+          "ruleIndex": 10,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "cf7f34afdd468e057b5a4f3b9405197110c9d8857d2c4f7fe5125a1055353b61"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2026-25680' (also known as 'GO-2026-5028', 'GHSA-5cv4-jp36-h3mw')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-25680",
+          "ruleIndex": 1,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "efdb974596834698314eee931869c5068403ef108023002867756290bfdf309a"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2026-25681' (also known as 'GO-2026-5029')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-25681",
+          "ruleIndex": 11,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "84271cb14c054a052b23b406ef36201169892d857b2fe883c6577fbc783edf05"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2026-27136' (also known as 'GO-2026-5030')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-27136",
+          "ruleIndex": 12,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "7529828a7435156b23feb6bf3309048623ba7bedcb44d3d1bdbbed81142a7663"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2026-46600' (also known as 'BIT-golang-2026-46600', 'GO-2026-5942')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-46600",
+          "ruleIndex": 13,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "ab1766926b87228e87286a3d1d1bac0e385c2339852fb60242c9515140c49141"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/text@0.13.0' is vulnerable to 'CVE-2026-56852' (also known as 'GO-2026-5970')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-56852",
+          "ruleIndex": 14,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "bc38773412361485d0c9e692177b7e1b8a2a2f4d54bcc7f350f65ffad2e7e042"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2026-78659' (also known as 'BIT-golang-2026-78659', 'GO-2026-6603')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-78659",
+          "ruleIndex": 15,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "91b5d79a227411fad8bd3bd3991ad025079c75bf8c72ea070f7512b4aefb89f7"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2026-78660' (also known as 'BIT-golang-2026-78660', 'GO-2026-6610')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-78660",
+          "ruleIndex": 16,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "86ec0a66ad66962cc94e0251f2a393383281d3b1f716acd4ce2540cbf8cc045a"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2026-78669' (also known as 'BIT-golang-2026-78669', 'GO-2026-6611')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-78669",
+          "ruleIndex": 17,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "1f602ff8d24c0c1287c48a1a1eed6339252fb24a712744d5c9838d001f35985c"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2026-78663' (also known as 'BIT-golang-2026-78663', 'GO-2026-6612')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-78663",
+          "ruleIndex": 18,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "8f8b6e47d211313dd739e487f70cfb7bb19ae72b190e9e7e69864278b607473d"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2026-97032' (also known as 'BIT-golang-2026-97032', 'GO-2026-6617')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-97032",
+          "ruleIndex": 19,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "eb134bdbeac8ebdaee4727b60ec6d48a1ee38b8adf753acace8b06fee10a3603"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/text@0.13.0' is vulnerable to 'CVE-2026-56851' (also known as 'GO-2026-6629')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-56851",
+          "ruleIndex": 20,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "919594b176a95a5dc025e880a07cfdb76e360368f524df938a18321debce65ff"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2026-78661' (also known as 'GO-2026-6860')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-78661",
+          "ruleIndex": 21,
+          "stacks": [],
+          "taxa": []
+        },
+        {
+          "partialFingerprints": {
+            "primaryLocationLineHash": "30eaf9b4bc70006d6175e1eec3d42b210952d71c907762f695f243d71ab90158"
+          },
+          "attachments": [],
+          "codeFlows": [],
+          "fixes": [],
+          "graphTraversals": [],
+          "graphs": [],
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "annotations": [],
+              "id": -1,
+              "logicalLocations": [],
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": -1,
+                  "uri": "file:///home/lewis/Desktop/devin-demo/demo-session-router/go.mod"
+                }
+              },
+              "relationships": []
+            }
+          ],
+          "message": {
+            "arguments": [],
+            "text": "Package 'golang.org/x/net@0.17.0' is vulnerable to 'CVE-2026-97045' (also known as 'GO-2026-6866')."
+          },
+          "rank": -1,
+          "relatedLocations": [],
+          "ruleId": "CVE-2026-97045",
+          "ruleIndex": 22,
+          "stacks": [],
+          "taxa": []
+        }
+      ],
+      "runAggregates": [],
+      "taxonomies": [],
+      "threadFlowLocations": [],
+      "tool": {
+        "driver": {
+          "contents": [
+            "localizedData",
+            "nonLocalizedData"
+          ],
+          "informationUri": "https://github.com/google/osv-scanner",
+          "isComprehensive": false,
+          "language": "en-US",
+          "locations": [],
+          "name": "osv-scanner",
+          "notifications": [],
+          "rules": [
+            {
+              "deprecatedIds": [
+                "CVE-2023-45288",
+                "BIT-golang-2023-45288",
+                "GO-2024-2687",
+                "GHSA-4v7x-pqxf-cx7m"
+              ],
+              "fullDescription": {
+                "markdown": "An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames.\n\nMaintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed.\n\nThis permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send.\n\nThe fix sets a limit on the amount of excess header frames we will process before closing a connection.",
+                "text": "An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames.\n\nMaintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed.\n\nThis permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send.\n\nThe fix sets a limit on the amount of excess header frames we will process before closing a connection."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2023-45288](https://osv.dev/CVE-2023-45288)**\n(Also published as: [GO-2024-2687](https://osv.dev/GO-2024-2687), [GHSA-4v7x-pqxf-cx7m](https://osv.dev/GHSA-4v7x-pqxf-cx7m), ).\n\n## [GO-2024-2687](https://osv.dev/GO-2024-2687)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames.\n\u003e \n\u003e Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed.\n\u003e \n\u003e This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send.\n\u003e \n\u003e The fix sets a limit on the amount of excess header frames we will process before closing a connection.\n\n\u003c/details\u003e\n\n## [GHSA-4v7x-pqxf-cx7m](https://osv.dev/GHSA-4v7x-pqxf-cx7m)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GHSA-4v7x-pqxf-cx7m | net/http | 1.21.9, 1.22.2 |\n| GHSA-4v7x-pqxf-cx7m | golang.org/x/net/http2 | 0.23.0 |\n| GHSA-4v7x-pqxf-cx7m | golang.org/x/net | 0.23.0 |\n| GO-2024-2687 | stdlib | 1.21.9, 1.22.2 |\n| GO-2024-2687 | golang.org/x/net | 0.23.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2023-45288\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2023-45288](https://osv.dev/CVE-2023-45288)**\n(Also published as: [GO-2024-2687](https://osv.dev/GO-2024-2687), [GHSA-4v7x-pqxf-cx7m](https://osv.dev/GHSA-4v7x-pqxf-cx7m), ).\n\n## [GO-2024-2687](https://osv.dev/GO-2024-2687)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames.\n\u003e \n\u003e Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed.\n\u003e \n\u003e This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send.\n\u003e \n\u003e The fix sets a limit on the amount of excess header frames we will process before closing a connection.\n\n\u003c/details\u003e\n\n## [GHSA-4v7x-pqxf-cx7m](https://osv.dev/GHSA-4v7x-pqxf-cx7m)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GHSA-4v7x-pqxf-cx7m | net/http | 1.21.9, 1.22.2 |\n| GHSA-4v7x-pqxf-cx7m | golang.org/x/net/http2 | 0.23.0 |\n| GHSA-4v7x-pqxf-cx7m | golang.org/x/net | 0.23.0 |\n| GO-2024-2687 | stdlib | 1.21.9, 1.22.2 |\n| GO-2024-2687 | golang.org/x/net | 0.23.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2023-45288\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2023-45288",
+              "name": "CVE-2023-45288",
+              "properties": {
+                "security-severity": "5.3"
+              },
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2023-45288: HTTP/2 CONTINUATION flood in net/http",
+                "text": "CVE-2023-45288: HTTP/2 CONTINUATION flood in net/http"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-25680",
+                "GO-2026-5028",
+                "GHSA-5cv4-jp36-h3mw"
+              ],
+              "fullDescription": {
+                "markdown": "Parsing arbitrary HTML can consume excessive CPU time, possibly leading to denial of service.",
+                "text": "Parsing arbitrary HTML can consume excessive CPU time, possibly leading to denial of service."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-25680](https://osv.dev/CVE-2026-25680)**\n(Also published as: [GO-2026-5028](https://osv.dev/GO-2026-5028), [GHSA-5cv4-jp36-h3mw](https://osv.dev/GHSA-5cv4-jp36-h3mw), ).\n\n## [GO-2026-5028](https://osv.dev/GO-2026-5028)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Parsing arbitrary HTML can consume excessive CPU time, possibly leading to denial of service.\n\n\u003c/details\u003e\n\n## [GHSA-5cv4-jp36-h3mw](https://osv.dev/GHSA-5cv4-jp36-h3mw)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e In Go Net (`golang.org/x/net`) before verion 0.55.0, parsing arbitrary HTML can consume excessive CPU time, possibly leading to denial of service.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GHSA-5cv4-jp36-h3mw | golang.org/x/net | 0.55.0 |\n| GO-2026-5028 | golang.org/x/net | 0.55.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-25680\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-25680](https://osv.dev/CVE-2026-25680)**\n(Also published as: [GO-2026-5028](https://osv.dev/GO-2026-5028), [GHSA-5cv4-jp36-h3mw](https://osv.dev/GHSA-5cv4-jp36-h3mw), ).\n\n## [GO-2026-5028](https://osv.dev/GO-2026-5028)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Parsing arbitrary HTML can consume excessive CPU time, possibly leading to denial of service.\n\n\u003c/details\u003e\n\n## [GHSA-5cv4-jp36-h3mw](https://osv.dev/GHSA-5cv4-jp36-h3mw)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e In Go Net (`golang.org/x/net`) before verion 0.55.0, parsing arbitrary HTML can consume excessive CPU time, possibly leading to denial of service.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GHSA-5cv4-jp36-h3mw | golang.org/x/net | 0.55.0 |\n| GO-2026-5028 | golang.org/x/net | 0.55.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-25680\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-25680",
+              "name": "CVE-2026-25680",
+              "properties": {
+                "security-severity": "6.5"
+              },
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-25680: Invoking denial of service when parsing arbitrary HTML in golang.org/x/net/html",
+                "text": "CVE-2026-25680: Invoking denial of service when parsing arbitrary HTML in golang.org/x/net/html"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2025-22870",
+                "GO-2025-3503",
+                "GHSA-qxp5-gwg8-xv66"
+              ],
+              "fullDescription": {
+                "markdown": "Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to \"*.example.com\", a request to \"[::1%25.example.com]:80` will incorrectly match and not be proxied.",
+                "text": "Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to \"*.example.com\", a request to \"[::1%25.example.com]:80` will incorrectly match and not be proxied."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2025-22870](https://osv.dev/CVE-2025-22870)**\n(Also published as: [GO-2025-3503](https://osv.dev/GO-2025-3503), [GHSA-qxp5-gwg8-xv66](https://osv.dev/GHSA-qxp5-gwg8-xv66), ).\n\n## [GO-2025-3503](https://osv.dev/GO-2025-3503)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to \"*.example.com\", a request to \"[::1%25.example.com]:80` will incorrectly match and not be proxied.\n\n\u003c/details\u003e\n\n## [GHSA-qxp5-gwg8-xv66](https://osv.dev/GHSA-qxp5-gwg8-xv66)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to \"*.example.com\", a request to \"[::1%25.example.com]:80` will incorrectly match and not be proxied.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GHSA-qxp5-gwg8-xv66 | golang.org/x/net | 0.36.0 |\n| GO-2025-3503 | stdlib | 1.23.7, 1.24.1 |\n| GO-2025-3503 | golang.org/x/net | 0.36.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2025-22870\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2025-22870](https://osv.dev/CVE-2025-22870)**\n(Also published as: [GO-2025-3503](https://osv.dev/GO-2025-3503), [GHSA-qxp5-gwg8-xv66](https://osv.dev/GHSA-qxp5-gwg8-xv66), ).\n\n## [GO-2025-3503](https://osv.dev/GO-2025-3503)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to \"*.example.com\", a request to \"[::1%25.example.com]:80` will incorrectly match and not be proxied.\n\n\u003c/details\u003e\n\n## [GHSA-qxp5-gwg8-xv66](https://osv.dev/GHSA-qxp5-gwg8-xv66)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to \"*.example.com\", a request to \"[::1%25.example.com]:80` will incorrectly match and not be proxied.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GHSA-qxp5-gwg8-xv66 | golang.org/x/net | 0.36.0 |\n| GO-2025-3503 | stdlib | 1.23.7, 1.24.1 |\n| GO-2025-3503 | golang.org/x/net | 0.36.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2025-22870\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2025-22870",
+              "name": "CVE-2025-22870",
+              "properties": {
+                "security-severity": "4.4"
+              },
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2025-22870: HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net",
+                "text": "CVE-2025-22870: HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2025-22872",
+                "GO-2025-3595",
+                "GHSA-vvgc-356p-c3xw"
+              ],
+              "fullDescription": {
+                "markdown": "The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. \u003cmath\u003e, \u003csvg\u003e, etc contexts).",
+                "text": "The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. \u003cmath\u003e, \u003csvg\u003e, etc contexts)."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2025-22872](https://osv.dev/CVE-2025-22872)**\n(Also published as: [GO-2025-3595](https://osv.dev/GO-2025-3595), [GHSA-vvgc-356p-c3xw](https://osv.dev/GHSA-vvgc-356p-c3xw), ).\n\n## [GO-2025-3595](https://osv.dev/GO-2025-3595)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. \u003cmath\u003e, \u003csvg\u003e, etc contexts).\n\n\u003c/details\u003e\n\n## [GHSA-vvgc-356p-c3xw](https://osv.dev/GHSA-vvgc-356p-c3xw)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. \u003cmath\u003e, \u003csvg\u003e, etc contexts).\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GHSA-vvgc-356p-c3xw | golang.org/x/net | 0.38.0 |\n| GO-2025-3595 | golang.org/x/net | 0.38.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2025-22872\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2025-22872](https://osv.dev/CVE-2025-22872)**\n(Also published as: [GO-2025-3595](https://osv.dev/GO-2025-3595), [GHSA-vvgc-356p-c3xw](https://osv.dev/GHSA-vvgc-356p-c3xw), ).\n\n## [GO-2025-3595](https://osv.dev/GO-2025-3595)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. \u003cmath\u003e, \u003csvg\u003e, etc contexts).\n\n\u003c/details\u003e\n\n## [GHSA-vvgc-356p-c3xw](https://osv.dev/GHSA-vvgc-356p-c3xw)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. \u003cmath\u003e, \u003csvg\u003e, etc contexts).\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GHSA-vvgc-356p-c3xw | golang.org/x/net | 0.38.0 |\n| GO-2025-3595 | golang.org/x/net | 0.38.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2025-22872\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2025-22872",
+              "name": "CVE-2025-22872",
+              "properties": {
+                "security-severity": "5.3"
+              },
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2025-22872: Incorrect Neutralization of Input During Web Page Generation in x/net in golang.org/x/net",
+                "text": "CVE-2025-22872: Incorrect Neutralization of Input During Web Page Generation in x/net in golang.org/x/net"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2024-45338",
+                "GO-2024-3333",
+                "GHSA-w32m-9786-jp63"
+              ],
+              "fullDescription": {
+                "markdown": "An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.",
+                "text": "An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2024-45338](https://osv.dev/CVE-2024-45338)**.\n\n## [GO-2024-3333](https://osv.dev/GO-2024-3333)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2024-3333 | golang.org/x/net | 0.33.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2024-45338\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2024-45338](https://osv.dev/CVE-2024-45338)**.\n\n## [GO-2024-3333](https://osv.dev/GO-2024-3333)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2024-3333 | golang.org/x/net | 0.33.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2024-45338\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2024-45338",
+              "name": "CVE-2024-45338",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2024-45338: Non-linear parsing of case-insensitive content in golang.org/x/net/html",
+                "text": "CVE-2024-45338: Non-linear parsing of case-insensitive content in golang.org/x/net/html"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2025-47911",
+                "GO-2026-4440",
+                "GHSA-w4gw-w5jq-g9jh"
+              ],
+              "fullDescription": {
+                "markdown": "The html.Parse function in golang.org/x/net/html has quadratic parsing complexity when processing certain inputs, which can lead to denial of service (DoS) if an attacker provides specially crafted HTML content.",
+                "text": "The html.Parse function in golang.org/x/net/html has quadratic parsing complexity when processing certain inputs, which can lead to denial of service (DoS) if an attacker provides specially crafted HTML content."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2025-47911](https://osv.dev/CVE-2025-47911)**.\n\n## [GO-2026-4440](https://osv.dev/GO-2026-4440)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e The html.Parse function in golang.org/x/net/html has quadratic parsing complexity when processing certain inputs, which can lead to denial of service (DoS) if an attacker provides specially crafted HTML content.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-4440 | golang.org/x/net | 0.45.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2025-47911\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2025-47911](https://osv.dev/CVE-2025-47911)**.\n\n## [GO-2026-4440](https://osv.dev/GO-2026-4440)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e The html.Parse function in golang.org/x/net/html has quadratic parsing complexity when processing certain inputs, which can lead to denial of service (DoS) if an attacker provides specially crafted HTML content.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-4440 | golang.org/x/net | 0.45.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2025-47911\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2025-47911",
+              "name": "CVE-2025-47911",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2025-47911: Quadratic parsing complexity in golang.org/x/net/html",
+                "text": "CVE-2025-47911: Quadratic parsing complexity in golang.org/x/net/html"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2025-58190",
+                "GO-2026-4441"
+              ],
+              "fullDescription": {
+                "markdown": "The html.Parse function in golang.org/x/net/html has an infinite parsing loop when processing certain inputs, which can lead to denial of service (DoS) if an attacker provides specially crafted HTML content.",
+                "text": "The html.Parse function in golang.org/x/net/html has an infinite parsing loop when processing certain inputs, which can lead to denial of service (DoS) if an attacker provides specially crafted HTML content."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2025-58190](https://osv.dev/CVE-2025-58190)**.\n\n## [GO-2026-4441](https://osv.dev/GO-2026-4441)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e The html.Parse function in golang.org/x/net/html has an infinite parsing loop when processing certain inputs, which can lead to denial of service (DoS) if an attacker provides specially crafted HTML content.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-4441 | golang.org/x/net | 0.45.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2025-58190\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2025-58190](https://osv.dev/CVE-2025-58190)**.\n\n## [GO-2026-4441](https://osv.dev/GO-2026-4441)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e The html.Parse function in golang.org/x/net/html has an infinite parsing loop when processing certain inputs, which can lead to denial of service (DoS) if an attacker provides specially crafted HTML content.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-4441 | golang.org/x/net | 0.45.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2025-58190\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2025-58190",
+              "name": "CVE-2025-58190",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2025-58190: Infinite parsing loop in golang.org/x/net",
+                "text": "CVE-2025-58190: Infinite parsing loop in golang.org/x/net"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-33814",
+                "BIT-golang-2026-33814",
+                "GO-2026-4918"
+              ],
+              "fullDescription": {
+                "markdown": "When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.",
+                "text": "When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-33814](https://osv.dev/CVE-2026-33814)**.\n\n## [GO-2026-4918](https://osv.dev/GO-2026-4918)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-4918 | stdlib | 1.25.10, 1.26.3 |\n| GO-2026-4918 | golang.org/x/net | 0.53.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-33814\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-33814](https://osv.dev/CVE-2026-33814)**.\n\n## [GO-2026-4918](https://osv.dev/GO-2026-4918)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-4918 | stdlib | 1.25.10, 1.26.3 |\n| GO-2026-4918 | golang.org/x/net | 0.53.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-33814\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-33814",
+              "name": "CVE-2026-33814",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-33814: Infinite loop in HTTP/2 transport when given bad SETTINGS_MAX_FRAME_SIZE in net/http/internal/http2 in golang.org/x/net",
+                "text": "CVE-2026-33814: Infinite loop in HTTP/2 transport when given bad SETTINGS_MAX_FRAME_SIZE in net/http/internal/http2 in golang.org/x/net"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-42506",
+                "GO-2026-5025"
+              ],
+              "fullDescription": {
+                "markdown": "Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering.",
+                "text": "Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-42506](https://osv.dev/CVE-2026-42506)**.\n\n## [GO-2026-5025](https://osv.dev/GO-2026-5025)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-5025 | golang.org/x/net | 0.55.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-42506\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-42506](https://osv.dev/CVE-2026-42506)**.\n\n## [GO-2026-5025](https://osv.dev/GO-2026-5025)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-5025 | golang.org/x/net | 0.55.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-42506\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-42506",
+              "name": "CVE-2026-42506",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-42506: Invoking incorrect handling of namespaced elements in foreign content in golang.org/x/net/html",
+                "text": "CVE-2026-42506: Invoking incorrect handling of namespaced elements in foreign content in golang.org/x/net/html"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-39821",
+                "GO-2026-5026"
+              ],
+              "fullDescription": {
+                "markdown": "The ToASCII and ToUnicode functions incorrectly accept Punycode-encoded labels that decode to an ASCII-only label. For example, ToUnicode(\"xn--example-.com\") incorrectly returns the name \"example.com\" rather than an error.\n\nThis behavior can lead to privilege escalation in programs using the idna package. For example, a program which performs privilege checks on the ASCII hostname may reject \"example.com\" but permit \"xn--example-.com\". If that program subsequently converts the ASCII hostname to Unicode, it will inadvertently permits access to the Unicode name \"example.com\".",
+                "text": "The ToASCII and ToUnicode functions incorrectly accept Punycode-encoded labels that decode to an ASCII-only label. For example, ToUnicode(\"xn--example-.com\") incorrectly returns the name \"example.com\" rather than an error.\n\nThis behavior can lead to privilege escalation in programs using the idna package. For example, a program which performs privilege checks on the ASCII hostname may reject \"example.com\" but permit \"xn--example-.com\". If that program subsequently converts the ASCII hostname to Unicode, it will inadvertently permits access to the Unicode name \"example.com\"."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-39821](https://osv.dev/CVE-2026-39821)**.\n\n## [GO-2026-5026](https://osv.dev/GO-2026-5026)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e The ToASCII and ToUnicode functions incorrectly accept Punycode-encoded labels that decode to an ASCII-only label. For example, ToUnicode(\"xn--example-.com\") incorrectly returns the name \"example.com\" rather than an error.\n\u003e \n\u003e This behavior can lead to privilege escalation in programs using the idna package. For example, a program which performs privilege checks on the ASCII hostname may reject \"example.com\" but permit \"xn--example-.com\". If that program subsequently converts the ASCII hostname to Unicode, it will inadvertently permits access to the Unicode name \"example.com\".\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-5026 | stdlib | 1.25.13, 1.26.6, 1.27.0-rc.3 |\n| GO-2026-5026 | golang.org/x/net | 0.55.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-39821\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-39821](https://osv.dev/CVE-2026-39821)**.\n\n## [GO-2026-5026](https://osv.dev/GO-2026-5026)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e The ToASCII and ToUnicode functions incorrectly accept Punycode-encoded labels that decode to an ASCII-only label. For example, ToUnicode(\"xn--example-.com\") incorrectly returns the name \"example.com\" rather than an error.\n\u003e \n\u003e This behavior can lead to privilege escalation in programs using the idna package. For example, a program which performs privilege checks on the ASCII hostname may reject \"example.com\" but permit \"xn--example-.com\". If that program subsequently converts the ASCII hostname to Unicode, it will inadvertently permits access to the Unicode name \"example.com\".\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-5026 | stdlib | 1.25.13, 1.26.6, 1.27.0-rc.3 |\n| GO-2026-5026 | golang.org/x/net | 0.55.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-39821\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-39821",
+              "name": "CVE-2026-39821",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-39821: Invoking failure to reject ASCII-only Punycode-encoded labels in golang.org/x/net/idna",
+                "text": "CVE-2026-39821: Invoking failure to reject ASCII-only Punycode-encoded labels in golang.org/x/net/idna"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-42502",
+                "GO-2026-5027"
+              ],
+              "fullDescription": {
+                "markdown": "Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering.",
+                "text": "Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-42502](https://osv.dev/CVE-2026-42502)**.\n\n## [GO-2026-5027](https://osv.dev/GO-2026-5027)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-5027 | golang.org/x/net | 0.55.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-42502\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-42502](https://osv.dev/CVE-2026-42502)**.\n\n## [GO-2026-5027](https://osv.dev/GO-2026-5027)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-5027 | golang.org/x/net | 0.55.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-42502\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-42502",
+              "name": "CVE-2026-42502",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-42502: Invoking incorrect handling of HTML elements in foreign content in golang.org/x/net/html",
+                "text": "CVE-2026-42502: Invoking incorrect handling of HTML elements in foreign content in golang.org/x/net/html"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-25681",
+                "GO-2026-5029"
+              ],
+              "fullDescription": {
+                "markdown": "Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering.",
+                "text": "Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-25681](https://osv.dev/CVE-2026-25681)**.\n\n## [GO-2026-5029](https://osv.dev/GO-2026-5029)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-5029 | golang.org/x/net | 0.55.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-25681\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-25681](https://osv.dev/CVE-2026-25681)**.\n\n## [GO-2026-5029](https://osv.dev/GO-2026-5029)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-5029 | golang.org/x/net | 0.55.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-25681\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-25681",
+              "name": "CVE-2026-25681",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-25681: Invoking incorrect handling of character references in DOCTYPE nodes in golang.org/x/net/html",
+                "text": "CVE-2026-25681: Invoking incorrect handling of character references in DOCTYPE nodes in golang.org/x/net/html"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-27136",
+                "GO-2026-5030"
+              ],
+              "fullDescription": {
+                "markdown": "Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering.",
+                "text": "Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-27136](https://osv.dev/CVE-2026-27136)**.\n\n## [GO-2026-5030](https://osv.dev/GO-2026-5030)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-5030 | golang.org/x/net | 0.55.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-27136\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-27136](https://osv.dev/CVE-2026-27136)**.\n\n## [GO-2026-5030](https://osv.dev/GO-2026-5030)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-5030 | golang.org/x/net | 0.55.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-27136\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-27136",
+              "name": "CVE-2026-27136",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-27136: Invoking duplicate attributes can cause XSS in golang.org/x/net/html",
+                "text": "CVE-2026-27136: Invoking duplicate attributes can cause XSS in golang.org/x/net/html"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-46600",
+                "BIT-golang-2026-46600",
+                "GO-2026-5942"
+              ],
+              "fullDescription": {
+                "markdown": "Parsing an invalid SVCB or HTTPS RR can panic when the size of a parameter value overflows the message buffer.",
+                "text": "Parsing an invalid SVCB or HTTPS RR can panic when the size of a parameter value overflows the message buffer."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-46600](https://osv.dev/CVE-2026-46600)**.\n\n## [GO-2026-5942](https://osv.dev/GO-2026-5942)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Parsing an invalid SVCB or HTTPS RR can panic when the size of a parameter value overflows the message buffer.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-5942 | stdlib | 1.26.6, 1.27.0-rc.3 |\n| GO-2026-5942 | golang.org/x/net | 0.56.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-46600\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-46600](https://osv.dev/CVE-2026-46600)**.\n\n## [GO-2026-5942](https://osv.dev/GO-2026-5942)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Parsing an invalid SVCB or HTTPS RR can panic when the size of a parameter value overflows the message buffer.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-5942 | stdlib | 1.26.6, 1.27.0-rc.3 |\n| GO-2026-5942 | golang.org/x/net | 0.56.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-46600\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-46600",
+              "name": "CVE-2026-46600",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-46600: Parsing an invalid SVCB or HTTPS RR can panic in golang.org/x/net/dns/dnsmessage",
+                "text": "CVE-2026-46600: Parsing an invalid SVCB or HTTPS RR can panic in golang.org/x/net/dns/dnsmessage"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-56852",
+                "GO-2026-5970"
+              ],
+              "fullDescription": {
+                "markdown": "A norm.Iter can enter an infinite loop when handling input containing invalid UTF-8 bytes.",
+                "text": "A norm.Iter can enter an infinite loop when handling input containing invalid UTF-8 bytes."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-56852](https://osv.dev/CVE-2026-56852)**.\n\n## [GO-2026-5970](https://osv.dev/GO-2026-5970)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e A norm.Iter can enter an infinite loop when handling input containing invalid UTF-8 bytes.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/text | 0.13.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-5970 | golang.org/x/text | 0.39.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-56852\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-56852](https://osv.dev/CVE-2026-56852)**.\n\n## [GO-2026-5970](https://osv.dev/GO-2026-5970)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e A norm.Iter can enter an infinite loop when handling input containing invalid UTF-8 bytes.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/text | 0.13.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-5970 | golang.org/x/text | 0.39.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-56852\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-56852",
+              "name": "CVE-2026-56852",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-56852: Infinite loop on invalid input in golang.org/x/text",
+                "text": "CVE-2026-56852: Infinite loop on invalid input in golang.org/x/text"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-78659",
+                "BIT-golang-2026-78659",
+                "GO-2026-6603"
+              ],
+              "fullDescription": {
+                "markdown": "When \"Trailer\" headers are sent by a client, the HTTP server internally uses the header values to populate the Request.Trailer map passed to the server handler. Because Request.Trailer is a map, each entry incurs memory overhead. For HTTP/2 servers, a malicious client can exploit this by sending a \"Trailer\" header that declares a large number of fields, causing the server to allocate a disproportionate amount of memory while bypassing Server.MaxHeaderValueCount and Server.MaxHeaderBytes limits. This exploit is not applicable for HTTP/1 servers, which do not support multiplexing a large number of requests over one TCP connection, and whose Server.MaxHeaderBytes are calculated differently.",
+                "text": "When \"Trailer\" headers are sent by a client, the HTTP server internally uses the header values to populate the Request.Trailer map passed to the server handler. Because Request.Trailer is a map, each entry incurs memory overhead. For HTTP/2 servers, a malicious client can exploit this by sending a \"Trailer\" header that declares a large number of fields, causing the server to allocate a disproportionate amount of memory while bypassing Server.MaxHeaderValueCount and Server.MaxHeaderBytes limits. This exploit is not applicable for HTTP/1 servers, which do not support multiplexing a large number of requests over one TCP connection, and whose Server.MaxHeaderBytes are calculated differently."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-78659](https://osv.dev/CVE-2026-78659)**.\n\n## [GO-2026-6603](https://osv.dev/GO-2026-6603)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e When \"Trailer\" headers are sent by a client, the HTTP server internally uses the header values to populate the Request.Trailer map passed to the server handler. Because Request.Trailer is a map, each entry incurs memory overhead. For HTTP/2 servers, a malicious client can exploit this by sending a \"Trailer\" header that declares a large number of fields, causing the server to allocate a disproportionate amount of memory while bypassing Server.MaxHeaderValueCount and Server.MaxHeaderBytes limits. This exploit is not applicable for HTTP/1 servers, which do not support multiplexing a large number of requests over one TCP connection, and whose Server.MaxHeaderBytes are calculated differently.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-6603 | stdlib | 1.26.9, 1.27.2 |\n| GO-2026-6603 | golang.org/x/net | 0.60.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-78659\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-78659](https://osv.dev/CVE-2026-78659)**.\n\n## [GO-2026-6603](https://osv.dev/GO-2026-6603)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e When \"Trailer\" headers are sent by a client, the HTTP server internally uses the header values to populate the Request.Trailer map passed to the server handler. Because Request.Trailer is a map, each entry incurs memory overhead. For HTTP/2 servers, a malicious client can exploit this by sending a \"Trailer\" header that declares a large number of fields, causing the server to allocate a disproportionate amount of memory while bypassing Server.MaxHeaderValueCount and Server.MaxHeaderBytes limits. This exploit is not applicable for HTTP/1 servers, which do not support multiplexing a large number of requests over one TCP connection, and whose Server.MaxHeaderBytes are calculated differently.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-6603 | stdlib | 1.26.9, 1.27.2 |\n| GO-2026-6603 | golang.org/x/net | 0.60.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-78659\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-78659",
+              "name": "CVE-2026-78659",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-78659: HTTP/2 server memory exhaustion due to Trailer headers in net/http",
+                "text": "CVE-2026-78659: HTTP/2 server memory exhaustion due to Trailer headers in net/http"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-78660",
+                "BIT-golang-2026-78660",
+                "GO-2026-6610"
+              ],
+              "fullDescription": {
+                "markdown": "Historically, we have been rather lax about malformed framing-related headers in our HTTP/2 implementation, as they cannot interfere with HTTP/2 framing. However, this makes it possible for our HTTP/2 implementation to forward responses containing such headers to an HTTP/1 client when acting as a reverse proxy. If the HTTP/1 client also does not behave strictly enough, this can result in response smuggling.",
+                "text": "Historically, we have been rather lax about malformed framing-related headers in our HTTP/2 implementation, as they cannot interfere with HTTP/2 framing. However, this makes it possible for our HTTP/2 implementation to forward responses containing such headers to an HTTP/1 client when acting as a reverse proxy. If the HTTP/1 client also does not behave strictly enough, this can result in response smuggling."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-78660](https://osv.dev/CVE-2026-78660)**.\n\n## [GO-2026-6610](https://osv.dev/GO-2026-6610)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Historically, we have been rather lax about malformed framing-related headers in our HTTP/2 implementation, as they cannot interfere with HTTP/2 framing. However, this makes it possible for our HTTP/2 implementation to forward responses containing such headers to an HTTP/1 client when acting as a reverse proxy. If the HTTP/1 client also does not behave strictly enough, this can result in response smuggling.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-6610 | stdlib | 1.26.9, 1.27.2 |\n| GO-2026-6610 | golang.org/x/net | 0.60.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-78660\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-78660](https://osv.dev/CVE-2026-78660)**.\n\n## [GO-2026-6610](https://osv.dev/GO-2026-6610)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e Historically, we have been rather lax about malformed framing-related headers in our HTTP/2 implementation, as they cannot interfere with HTTP/2 framing. However, this makes it possible for our HTTP/2 implementation to forward responses containing such headers to an HTTP/1 client when acting as a reverse proxy. If the HTTP/1 client also does not behave strictly enough, this can result in response smuggling.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-6610 | stdlib | 1.26.9, 1.27.2 |\n| GO-2026-6610 | golang.org/x/net | 0.60.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-78660\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-78660",
+              "name": "CVE-2026-78660",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-78660: HTTP/2 transport accepts malformed framing-related headers in net/http",
+                "text": "CVE-2026-78660: HTTP/2 transport accepts malformed framing-related headers in net/http"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-78669",
+                "BIT-golang-2026-78669",
+                "GO-2026-6611"
+              ],
+              "fullDescription": {
+                "markdown": "A malicious HTTP/2 peer can cause excessive CPU consumption in the client or server by opening a large number of streams and then sending many small SETTINGS frames containing SETTINGS_INITIAL_WINDOW_SIZE values.",
+                "text": "A malicious HTTP/2 peer can cause excessive CPU consumption in the client or server by opening a large number of streams and then sending many small SETTINGS frames containing SETTINGS_INITIAL_WINDOW_SIZE values."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-78669](https://osv.dev/CVE-2026-78669)**.\n\n## [GO-2026-6611](https://osv.dev/GO-2026-6611)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e A malicious HTTP/2 peer can cause excessive CPU consumption in the client or server by opening a large number of streams and then sending many small SETTINGS frames containing SETTINGS_INITIAL_WINDOW_SIZE values.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-6611 | stdlib | 1.26.9, 1.27.2 |\n| GO-2026-6611 | golang.org/x/net | 0.60.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-78669\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-78669](https://osv.dev/CVE-2026-78669)**.\n\n## [GO-2026-6611](https://osv.dev/GO-2026-6611)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e A malicious HTTP/2 peer can cause excessive CPU consumption in the client or server by opening a large number of streams and then sending many small SETTINGS frames containing SETTINGS_INITIAL_WINDOW_SIZE values.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-6611 | stdlib | 1.26.9, 1.27.2 |\n| GO-2026-6611 | golang.org/x/net | 0.60.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-78669\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-78669",
+              "name": "CVE-2026-78669",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-78669: Excessive CPU consumption from repeated initial window changes in net/http",
+                "text": "CVE-2026-78669: Excessive CPU consumption from repeated initial window changes in net/http"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-78663",
+                "BIT-golang-2026-78663",
+                "GO-2026-6612"
+              ],
+              "fullDescription": {
+                "markdown": "The HTTP/2 server can refund connection-level flow control twice for the same data: Once when a client resets a stream (refunding data for any sent-but-unread portion of the stream), and again when a request handler reads the buffered data. A malicious client can exploit this to bypass the configured connection-level flow control limit (MaxReceiveBufferPerConnection). Total buffered data is still limited by the concurrent stream limit and stream-level flow control.",
+                "text": "The HTTP/2 server can refund connection-level flow control twice for the same data: Once when a client resets a stream (refunding data for any sent-but-unread portion of the stream), and again when a request handler reads the buffered data. A malicious client can exploit this to bypass the configured connection-level flow control limit (MaxReceiveBufferPerConnection). Total buffered data is still limited by the concurrent stream limit and stream-level flow control."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-78663](https://osv.dev/CVE-2026-78663)**.\n\n## [GO-2026-6612](https://osv.dev/GO-2026-6612)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e The HTTP/2 server can refund connection-level flow control twice for the same data: Once when a client resets a stream (refunding data for any sent-but-unread portion of the stream), and again when a request handler reads the buffered data. A malicious client can exploit this to bypass the configured connection-level flow control limit (MaxReceiveBufferPerConnection). Total buffered data is still limited by the concurrent stream limit and stream-level flow control.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-6612 | golang.org/x/net | 0.60.0 |\n| GO-2026-6612 | stdlib | 1.26.9, 1.27.2 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-78663\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-78663](https://osv.dev/CVE-2026-78663)**.\n\n## [GO-2026-6612](https://osv.dev/GO-2026-6612)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e The HTTP/2 server can refund connection-level flow control twice for the same data: Once when a client resets a stream (refunding data for any sent-but-unread portion of the stream), and again when a request handler reads the buffered data. A malicious client can exploit this to bypass the configured connection-level flow control limit (MaxReceiveBufferPerConnection). Total buffered data is still limited by the concurrent stream limit and stream-level flow control.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-6612 | golang.org/x/net | 0.60.0 |\n| GO-2026-6612 | stdlib | 1.26.9, 1.27.2 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-78663\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-78663",
+              "name": "CVE-2026-78663",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-78663: Double flow control refund on HTTP/2 server streams in net/http",
+                "text": "CVE-2026-78663: Double flow control refund on HTTP/2 server streams in net/http"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-97032",
+                "BIT-golang-2026-97032",
+                "GO-2026-6617"
+              ],
+              "fullDescription": {
+                "markdown": "HTTP/2 servers could end up crashing due to inadvertently modifying its HPACK encoder concurrently. This happens because the server modifies the HPACK encoder from two goroutines without synchronization: one uses the encoder to encode a HEADERS frame as part of a response sent to a client and the other modifies the encoder's table size when handling a SETTINGS frame containing SETTINGS_HEADER_TABLE_SIZE that a client sends. A malicious client can repeatedly send a request while changing the header table size to crash the server.",
+                "text": "HTTP/2 servers could end up crashing due to inadvertently modifying its HPACK encoder concurrently. This happens because the server modifies the HPACK encoder from two goroutines without synchronization: one uses the encoder to encode a HEADERS frame as part of a response sent to a client and the other modifies the encoder's table size when handling a SETTINGS frame containing SETTINGS_HEADER_TABLE_SIZE that a client sends. A malicious client can repeatedly send a request while changing the header table size to crash the server."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-97032](https://osv.dev/CVE-2026-97032)**.\n\n## [GO-2026-6617](https://osv.dev/GO-2026-6617)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e HTTP/2 servers could end up crashing due to inadvertently modifying its HPACK encoder concurrently. This happens because the server modifies the HPACK encoder from two goroutines without synchronization: one uses the encoder to encode a HEADERS frame as part of a response sent to a client and the other modifies the encoder's table size when handling a SETTINGS frame containing SETTINGS_HEADER_TABLE_SIZE that a client sends. A malicious client can repeatedly send a request while changing the header table size to crash the server.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-6617 | stdlib | 1.26.9, 1.27.2 |\n| GO-2026-6617 | golang.org/x/net | 0.60.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-97032\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-97032](https://osv.dev/CVE-2026-97032)**.\n\n## [GO-2026-6617](https://osv.dev/GO-2026-6617)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e HTTP/2 servers could end up crashing due to inadvertently modifying its HPACK encoder concurrently. This happens because the server modifies the HPACK encoder from two goroutines without synchronization: one uses the encoder to encode a HEADERS frame as part of a response sent to a client and the other modifies the encoder's table size when handling a SETTINGS frame containing SETTINGS_HEADER_TABLE_SIZE that a client sends. A malicious client can repeatedly send a request while changing the header table size to crash the server.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-6617 | stdlib | 1.26.9, 1.27.2 |\n| GO-2026-6617 | golang.org/x/net | 0.60.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-97032\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-97032",
+              "name": "CVE-2026-97032",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-97032: HTTP/2 server crash due to HPACK encoder race in net/http",
+                "text": "CVE-2026-97032: HTTP/2 server crash due to HPACK encoder race in net/http"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-56851",
+                "GO-2026-6629"
+              ],
+              "fullDescription": {
+                "markdown": "The Nickname profile can panic with an out-of-bounds slice error when transforming crafted input into a short destination buffer.",
+                "text": "The Nickname profile can panic with an out-of-bounds slice error when transforming crafted input into a short destination buffer."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-56851](https://osv.dev/CVE-2026-56851)**.\n\n## [GO-2026-6629](https://osv.dev/GO-2026-6629)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e The Nickname profile can panic with an out-of-bounds slice error when transforming crafted input into a short destination buffer.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/text | 0.13.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-6629 | golang.org/x/text | 0.41.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-56851\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-56851](https://osv.dev/CVE-2026-56851)**.\n\n## [GO-2026-6629](https://osv.dev/GO-2026-6629)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e The Nickname profile can panic with an out-of-bounds slice error when transforming crafted input into a short destination buffer.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/text | 0.13.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-6629 | golang.org/x/text | 0.41.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-56851\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-56851",
+              "name": "CVE-2026-56851",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-56851: Panic parsing crafted input in x/text/secure/precis in golang.org/x/text",
+                "text": "CVE-2026-56851: Panic parsing crafted input in x/text/secure/precis in golang.org/x/text"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-78661",
+                "GO-2026-6860"
+              ],
+              "fullDescription": {
+                "markdown": "When coalescing adjacent text nodes in addText and fosterParent, appending to an existing TextNode's Data via string concatenation (n.Data += text) reallocated and copied the accumulated string on every token. Inputs containing many short text runs separated by ignored end tags (such as \"a\u003c/x\u003e\") caused O(n^2) allocations and byte copies.\n\nAccumulate coalesced text in per-node byte slices during parsing and materialize Data strings once at the end of parse.",
+                "text": "When coalescing adjacent text nodes in addText and fosterParent, appending to an existing TextNode's Data via string concatenation (n.Data += text) reallocated and copied the accumulated string on every token. Inputs containing many short text runs separated by ignored end tags (such as \"a\u003c/x\u003e\") caused O(n^2) allocations and byte copies.\n\nAccumulate coalesced text in per-node byte slices during parsing and materialize Data strings once at the end of parse."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-78661](https://osv.dev/CVE-2026-78661)**.\n\n## [GO-2026-6860](https://osv.dev/GO-2026-6860)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e When coalescing adjacent text nodes in addText and fosterParent, appending to an existing TextNode's Data via string concatenation (n.Data += text) reallocated and copied the accumulated string on every token. Inputs containing many short text runs separated by ignored end tags (such as \"a\u003c/x\u003e\") caused O(n^2) allocations and byte copies.\n\u003e \n\u003e Accumulate coalesced text in per-node byte slices during parsing and materialize Data strings once at the end of parse.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-6860 | golang.org/x/net | 0.62.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-78661\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-78661](https://osv.dev/CVE-2026-78661)**.\n\n## [GO-2026-6860](https://osv.dev/GO-2026-6860)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e When coalescing adjacent text nodes in addText and fosterParent, appending to an existing TextNode's Data via string concatenation (n.Data += text) reallocated and copied the accumulated string on every token. Inputs containing many short text runs separated by ignored end tags (such as \"a\u003c/x\u003e\") caused O(n^2) allocations and byte copies.\n\u003e \n\u003e Accumulate coalesced text in per-node byte slices during parsing and materialize Data strings once at the end of parse.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-6860 | golang.org/x/net | 0.62.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-78661\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-78661",
+              "name": "CVE-2026-78661",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-78661: Avoid quadratic complexity when coalescing text nodes in html in golang.org/x/net",
+                "text": "CVE-2026-78661: Avoid quadratic complexity when coalescing text nodes in html in golang.org/x/net"
+              }
+            },
+            {
+              "deprecatedIds": [
+                "CVE-2026-97045",
+                "GO-2026-6866"
+              ],
+              "fullDescription": {
+                "markdown": "In childTextNodesAreLiteral, walking up the tree previously stopped at the nearest foreign ancestor once an HTML integration point was found. However, that integration point may itself be a descendant of an element that was foster-parented into a foreign namespace (such as \u003cmglyph\u003e or \u003cmalignmark\u003e fostered under \u003cmtext\u003e), causing a parser to resolve the subtree in a different foreign namespace upon re-parsing the rendered output.\n\nContinue walking the full ancestor chain and verify that every transition from a non-empty namespace occurs at an HTML integration point before emitting literal text.",
+                "text": "In childTextNodesAreLiteral, walking up the tree previously stopped at the nearest foreign ancestor once an HTML integration point was found. However, that integration point may itself be a descendant of an element that was foster-parented into a foreign namespace (such as \u003cmglyph\u003e or \u003cmalignmark\u003e fostered under \u003cmtext\u003e), causing a parser to resolve the subtree in a different foreign namespace upon re-parsing the rendered output.\n\nContinue walking the full ancestor chain and verify that every transition from a non-empty namespace occurs at an HTML integration point before emitting literal text."
+              },
+              "help": {
+                "markdown": "**Your dependency is vulnerable to [CVE-2026-97045](https://osv.dev/CVE-2026-97045)**.\n\n## [GO-2026-6866](https://osv.dev/GO-2026-6866)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e In childTextNodesAreLiteral, walking up the tree previously stopped at the nearest foreign ancestor once an HTML integration point was found. However, that integration point may itself be a descendant of an element that was foster-parented into a foreign namespace (such as \u003cmglyph\u003e or \u003cmalignmark\u003e fostered under \u003cmtext\u003e), causing a parser to resolve the subtree in a different foreign namespace upon re-parsing the rendered output.\n\u003e \n\u003e Continue walking the full ancestor chain and verify that every transition from a non-empty namespace occurs at an HTML integration point before emitting literal text.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-6866 | golang.org/x/net | 0.62.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-97045\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n",
+                "text": "**Your dependency is vulnerable to [CVE-2026-97045](https://osv.dev/CVE-2026-97045)**.\n\n## [GO-2026-6866](https://osv.dev/GO-2026-6866)\n\n\u003cdetails\u003e\n\u003csummary\u003eDetails\u003c/summary\u003e\n\n\u003e In childTextNodesAreLiteral, walking up the tree previously stopped at the nearest foreign ancestor once an HTML integration point was found. However, that integration point may itself be a descendant of an element that was foster-parented into a foreign namespace (such as \u003cmglyph\u003e or \u003cmalignmark\u003e fostered under \u003cmtext\u003e), causing a parser to resolve the subtree in a different foreign namespace upon re-parsing the rendered output.\n\u003e \n\u003e Continue walking the full ancestor chain and verify that every transition from a non-empty namespace occurs at an HTML integration point before emitting literal text.\n\n\u003c/details\u003e\n\n---\n\n### Affected Packages\n\n| Source | Package Name | Package Version |\n| --- | --- | --- |\n| lockfile:/home/lewis/Desktop/devin-demo/demo-session-router/go.mod | golang.org/x/net | 0.17.0 |\n\n## Remediation\n\nTo fix these vulnerabilities, update the vulnerabilities past the listed fixed versions below.\n\n### Fixed Versions\n\n| Vulnerability ID | Package Name | Fixed Version |\n| --- | --- | --- |\n| GO-2026-6866 | golang.org/x/net | 0.62.0 |\n\nIf you believe these vulnerabilities do not affect your code and wish to ignore them, add them to the ignore list in an\n`osv-scanner.toml` file located in the same directory as the lockfile containing the vulnerable dependency.\n\nSee the format and more options in our documentation here: https://google.github.io/osv-scanner/configuration/\n\nAdd or append these values to the following config files to ignore this vulnerability:\n\n`/home/lewis/Desktop/devin-demo/demo-session-router/osv-scanner.toml`\n\n```\n[[IgnoredVulns]]\nid = \"CVE-2026-97045\"\nreason = \"Your reason for ignoring this vulnerability\"\n```\n"
+              },
+              "id": "CVE-2026-97045",
+              "name": "CVE-2026-97045",
+              "relationships": [],
+              "shortDescription": {
+                "markdown": "CVE-2026-97045: Check all ancestor namespace transitions when rendering raw text in html in golang.org/x/net",
+                "text": "CVE-2026-97045: Check all ancestor namespace transitions when rendering raw text in html in golang.org/x/net"
+              }
+            }
+          ],
+          "supportedTaxonomies": [],
+          "taxa": [],
+          "version": "2.7.0"
+        },
+        "extensions": []
+      },
+      "translations": [],
+      "versionControlProvenance": [],
+      "webRequests": [],
+      "webResponses": []
+    }
+  ],
+  "properties": {}
+}
